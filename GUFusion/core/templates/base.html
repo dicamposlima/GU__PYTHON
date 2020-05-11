@@ -1,7 +1,7 @@
 {% load static %}
 
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="{{ lang }}">
 <head>
     <title>{% block title %}Fusion{% endblock %}</title>
     {% include 'partials/header/_head.html' %}
@@ -19,7 +19,6 @@
              id="loader-1"></div>
     </div>
     <!-- End Preloader -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     {% include 'partials/_javascript.html' %}
 </body>
 </html>

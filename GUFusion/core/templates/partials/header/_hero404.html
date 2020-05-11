@@ -1,19 +1,26 @@
 {% load static %}
+{% load i18n %}
 <div id="hero-area" class="hero-area-bg">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
-          <div class="contents">
-            <center>
-                <h2 class="head-title">SORRY!<br>PAGE NOT FOUND!</h2>
-            </center>
-          </div>
+        <div class="row">
+            <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
+                <div class="contents">
+                    <center>
+                        <h2 class="head-title">
+                            {% trans 'DESCULPE!' %}
+                            <br>
+                            {% trans 'PÁGINA NAO ENCONTRADA!' %}
+                        </h2>
+                    </center>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
+                <div class="intro-img">
+                    <img class="img-fluid"
+                         src="{% static 'img/intro-mobile.png' %}"
+                         alt="">
+                </div>
+            </div>
         </div>
-        <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
-          <div class="intro-img">
-            <img class="img-fluid" src="{% static 'img/intro-mobile.png' %}" alt="">
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
+</div>
