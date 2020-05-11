@@ -1,7 +1,7 @@
 asgiref==3.2.7
 beautifulsoup4==4.8.0
 bootstrap4==0.1.0
-Django==2.2.5
+Django==2.2.10
 django-bootstrap==0.2.4
 django-bootstrap4==1.0.1
 django-chartjs==1.5.0
