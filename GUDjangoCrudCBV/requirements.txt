@@ -1,5 +1,5 @@
 beautifulsoup4==4.8.1
-Django==2.2.10
+Django==3.0.7
 django-bootstrap4==1.1.0
 pytz==2019.3
 soupsieve==1.9.5
